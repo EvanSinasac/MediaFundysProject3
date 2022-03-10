@@ -1,0 +1,10 @@
+ModelFileName(extension) Position(x,y,z) Orientation(x,y,z) Scale Colour(r,g,b,a)
+Camera 0 2 -4
+bun_zipper_res2_XYZ_N.ply -10 0 10 0 0 0 5 204 153 255 1
+Turret.ply 10 1 10 90 180 0 0.25 153 0 0 1
+dfk_chairs.ply 0 0 5 0 180 0 1 102 51 0 1
+dfk_bookshelf.ply -5.5 0 -11 0 90 0 2 153 255 255 1
+dfk_pillar_small_02.ply 5.5 0 -11 0 0 0 1.5 255 153 204 1
+Floor_01_B.ply 5 0.025 -5 270 0 0 2 96 96 96 1
+bun_zipper_res2_XYZ_N.ply 0 3 12.5 180 90 0 8 128 255 0 1
+end

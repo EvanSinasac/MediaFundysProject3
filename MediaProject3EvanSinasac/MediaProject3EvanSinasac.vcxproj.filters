@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{69f75f30-2450-4561-9a37-3951e1932d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{7c341965-058f-429f-b0dd-cb90f36e5cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager">
+      <UniqueIdentifier>{320d3d5d-a431-4048-84fb-b39ca9a563d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Manager\Shaders">
+      <UniqueIdentifier>{7f0c0018-43db-427e-b38e-b027f8506f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{2bcc5886-86d6-46b5-8104-a9b19df2cc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{5d2b38aa-d8d1-4bad-adcb-9cb9b7a9d35d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Shader Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>Shader Manager\Shaders</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Meshes</Filter>
+    </Text>
+    <Text Include="..\common\assets\audio\audioList.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
